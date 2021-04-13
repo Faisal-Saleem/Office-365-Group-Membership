@@ -1,4 +1,4 @@
-# Generate Group Membership csv
+# Generate MSOL Group Membership csv
 
 $Groups = Get-MsolGroup
 [array]$GroupMembers = $null
