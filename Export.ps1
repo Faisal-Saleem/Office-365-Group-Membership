@@ -1,3 +1,5 @@
+# Generate Group Membership csv
+
 $Groups = Get-MsolGroup
 [array]$GroupMembers = $null
 foreach ($Group in $Groups)
